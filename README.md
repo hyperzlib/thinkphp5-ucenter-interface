@@ -21,4 +21,4 @@ UCenter后台配置:
 ```
 
 ## 感谢
-原作者 [https://github.com/d8q8](d8q8)
+原作者 [d8q8](https://github.com/d8q8)
