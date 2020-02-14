@@ -6,16 +6,17 @@
  * Time: 16:24
  */
 
-namespace Home\Controller;
+namespace UCenter\Controller;
 
 use UCenter\Api as UCenterApi;
+use think\Controller;
 
 /**
  * 统一UC控制器
  * Class UcController
  * @package Home\Controller
  */
-class UcController extends BaseController
+class UcController extends Controller
 {
     protected $uc; //统一UC实例化
     protected $authPre;//统一登录cookie前缀

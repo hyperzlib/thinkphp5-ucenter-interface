@@ -11,8 +11,9 @@ class Api {
      * UcApi constructor.
      */
     public function __construct() {
-        if (!defined('UC_API')) {
-            E('未发现ucnter配置文件');
+	require_once(__DIR__ . '/config.php');   
+	if (!defined('UC_API')) {
+            exception('未发现ucnter配置文件');
         }
         require_once(__DIR__ . '/uc_client/client.php'); // 加载UC客户端主脚本
     }
